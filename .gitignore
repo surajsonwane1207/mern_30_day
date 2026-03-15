@@ -1,0 +1,21 @@
+# dependencies
+day_06_todo/todo-app/node_modules
+
+# production
+day_06_todo/todo-app/.next
+day_06_todo/todo-app/out
+
+# testing
+day_06_todo/todo-app/coverage
+
+# misc
+day_06_todo/todo-app/.DS_Store
+day_06_todo/todo-app/.env.local
+day_06_todo/todo-app/.env.development.local
+day_06_todo/todo-app/.env.test.local
+day_06_todo/todo-app/.env.production.local
+
+day_06_todo/todo-app/npm-debug.log*
+day_06_todo/todo-app/yarn-debug.log*
+day_06_todo/todo-app/yarn-error.log*
+day_06_todo/todo-app/pnpm-debug.log*
