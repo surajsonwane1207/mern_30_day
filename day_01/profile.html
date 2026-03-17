@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #667eea;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .bio {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .info {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        
+        .info-item {
+            flex: 1;
+        }
+        
+        .info-item p {
+            color: #667eea;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .info-item span {
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+        
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-img">👤</div>
+        <h1>Suraj Sonwane</h1>
+        <p class="title">Full Stack Developer</p>
+        <p class="bio">Passionate about building beautiful and functional web applications using modern technologies.</p>
+        
+        <div class="info">
+            <div class="info-item">
+                <p>250</p>
+                <span>Followers</span>
+            </div>
+            <div class="info-item">
+                <p>50</p>
+                <span>Projects</span>
+            </div>
+            <div class="info-item">
+                <p>4.8</p>
+                <span>Rating</span>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn-primary">Follow</button>
+            <button class="btn-secondary">Message</button>
+        </div>
+    </div>
+</body>
+</html>
