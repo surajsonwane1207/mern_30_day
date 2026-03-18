@@ -1,48 +1,33 @@
-# 📩 Contact Form (HTML Project)
+# Form (HTML)
 
-A simple and responsive **Contact Form** built using HTML and CSS.  
-This project collects user details like name, email, and message.
+A **form** is a container for user input elements. It is used to collect data and submit it to a server (or handle it with JavaScript).
 
----
+## Basic structure
 
-## 🚀 Features
+```html
+<form action="/submit" method="post">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" />
 
-- User-friendly UI
-- Input validation using HTML5
-- Responsive design
-- Clean and minimal layout
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" />
 
----
+    <button type="submit">Submit</button>
+</form>
+```
 
-## 🛠️ Technologies Used
+## Common input types
 
-- HTML5
-- CSS3
+- text
+- email
+- password
+- checkbox
+- radio
+- textarea
+- select
 
----
+## Handling submission
 
-## 📂 Project Structure
-
-
----
-
-## 🧾 Form Fields
-
-- Name (Text)
-- Email (Email Validation)
-- Message (Textarea)
-- Submit Button
-
----
-
-## 📸 Preview
-
-![Contact Form Preview](https://via.placeholder.com/400x250)
-
----
-
-## ⚙️ How to Run
-
-1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/your-username/contact-form.git
+- `action` specifies where data is sent
+- `method` is usually `get` or `post`
+- JavaScript can handle submit with `event.preventDefault()` and fetch/AJAX
