@@ -1,74 +1,48 @@
-// ES6 Features Demonstration
+# 📩 Contact Form (HTML Project)
 
-// 1. let and const
-let variable = "I can be reassigned";
-const constant = "I cannot be reassigned";
+A simple and responsive **Contact Form** built using HTML and CSS.  
+This project collects user details like name, email, and message.
 
-// 2. Arrow Functions
-const add = (a, b) => a + b;
+---
 
-// 3. Template Literals
-const name = "Alice";
-const greeting = `Hello, ${name}!`;
+## 🚀 Features
 
-// 4. Destructuring Assignment
-const [first, second] = [1, 2];
-const { title, author } = { title: "ES6 Guide", author: "John Doe" };
+- User-friendly UI
+- Input validation using HTML5
+- Responsive design
+- Clean and minimal layout
 
-// 5. Default Parameters
-function greet(name = "Guest") {
-    return `Hello, ${name}!`;
-}                                             
-// 6. Rest and Spread Operators
-function sum(...numbers) {
-    return numbers.reduce((acc, num) => acc + num, 0);
-}
-    
-const arr1 = [1, 2, 3];
-const arr2 = [...arr1, 4, 5];
+---
 
-// 7. Classes
-class Person {
-    constructor(name) {
-        this.name = name;
-    }
-    greet() {
-        return `Hello, my name is ${this.name}`;
-    }
-}
+## 🛠️ Technologies Used
 
-// 8. Modules (Import/Export)
-// In file math.js
-export function multiply(a, b) {
-    return a * b;
-}
+- HTML5
+- CSS3
 
-// In another file
-import { multiply } from './math.js';
+---
 
-// 9. Promises
-const fetchData = () => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => resolve("Data fetched"), 1000);
-    });
-};          
-fetchData().then(data => console.log(data)).catch(error => console.error(error));
+## 📂 Project Structure
 
-// 10. Enhanced Object Literals
-const x = 10;
-const y = 20;
-const point = { x, y, move() { return `Moving to (${this.x}, ${this.y})`; } };
 
-// 11. Map and Set
-const myMap = new Map();
-myMap.set('key1', 'value1');
-myMap.set('key2', 'value2');
+---
 
-const mySet = new Set();
-mySet.add(1);
-mySet.add(2);
-mySet.add(2); // Duplicate, will not be added
+## 🧾 Form Fields
 
-console.log(myMap);
-console.log(mySet);
+- Name (Text)
+- Email (Email Validation)
+- Message (Textarea)
+- Submit Button
 
+---
+
+## 📸 Preview
+
+![Contact Form Preview](https://via.placeholder.com/400x250)
+
+---
+
+## ⚙️ How to Run
+
+1. Download or clone this repository:
+   ```bash
+   git clone https://github.com/your-username/contact-form.git
